@@ -3,8 +3,6 @@
 
 ## How to Reproduce the Analysis
 
-If you want to run the analysis yourself, here’s a step-by-step guide.
-
 ### 1. Clone the Repo
 
 First, you need to get the code. Open your terminal, and run:
@@ -139,7 +137,7 @@ data-512-project/
 ## Data Files
 
 ### Input Data
-1. **rare-disease_cleaned_AUG_2024.csv**: Metadata and monthly traffic for selected rare disease Wikipedia articles.
+1. **rare-disease_cleaned_AUG_2024.csv**: Information on the disease, pageid and it's url
 
 ### Output Visualizations
 1. **rare-disease_monthly_cumulative_201507-202409.json**: Cumulative (desktop + mobile) pageviews over the time period.
@@ -183,12 +181,12 @@ For the JSON files:
 
 
 ## Known Issues and Considerations
-- **Missing Data**: Some articles have missing data for certain months, which may affect trend analysis.
+- **Missing Data**: Some articles may have missing data for certain months, which may affect trend analysis.
 - **Article Changes**: Wikipedia articles can be merged or renamed, which might lead to some inconsistencies in the page view data.
 - **Outliers**: Sudden spikes in page views could result from external events such as media coverage, which can skew long-term trend analysis.
 
 ## Code Files
-1. **data_acquisition.ipynb**: Contains the code that calls the Wikimedia API to retrieve pageview data.
+1. **data_acquisition.ipynb**: Contains the code that calls the Wikimedia Analytics API to retrieve pageview data.
 2. **data_analysis.ipynb**: Contains the code for analyzing the data and generating the graphs.
 
 ## License and Documentation
