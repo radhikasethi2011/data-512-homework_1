@@ -8,7 +8,7 @@
 First, you need to get the code. Open your terminal, and run:
 
 ```bash
-git clone https://github.com/yourusername/data-512-homework_1.git
+git clone https://github.com/radhikasethi2011/data-512-homework_1.git
 cd data-512-homework_1
 ```
 
