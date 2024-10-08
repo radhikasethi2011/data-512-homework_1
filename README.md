@@ -100,22 +100,23 @@ The project uses the following API to access the page traffic data:
 
 ## Repository Structure
 
+```bash
 data-512-project/
 ├── data/
-│   ├── rare-disease_cleaned_AUG_2024.csv
+│   ├── Copy of rare-disease_cleaned_AUG_2024.csv
 │   ├── rare-disease_monthly_cumulative_201507-202409.json
 │   ├── rare-disease_monthly_desktop_201507-202409.json
 │   └── rare-disease_monthly_mobile_201507-202409.json
 ├── images/
-│   ├── Fewest_Months_of_Data_Desktop_and_Mobile.png
-│   ├── Max_Min_Average_Views.png
-│   └── Top_10_Peak_Page_Views_Desktop_and_Mobile.png
+│   ├── fewest_months_data.png
+│   ├── max_min_average_views.png
+│   └── top_10_peak_views.png
 ├── notebooks/
 │   ├── data_acquisition.ipynb
 │   └── data_analysis.ipynb
 ├── LICENSE
 └── README.md
-
+```
 
 
 
