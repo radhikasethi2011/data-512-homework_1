@@ -74,7 +74,7 @@ Here’s what the code will generate:
 
 ## Data Description
 
-We’re working with pageview data from the [Wikimedia Pageviews API]([https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/concepts/page-views.html)), which provides views for articles on Wikipedia. The articles we’re analyzing are all related to rare diseases and were sourced from the National Organization for Rare Diseases (NORD).
+We’re working with pageview data from the [Wikimedia Pageviews API](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html), which provides views for articles on Wikipedia. The articles we’re analyzing are all related to rare diseases and were sourced from the National Organization for Rare Diseases (NORD).
 
 ### The data includes:
 - **article_title**: The title of the Wikipedia article.
